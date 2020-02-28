@@ -1,0 +1,11 @@
+{
+	"type": "resource",
+	"name": "Empty Energy Cell",
+	"description": "Nothing fairy...",
+	"hardness": 1,
+	"cost": 6.0,
+	"color": "#F00000",
+	"radioactivity": 0.0
+	"explosiveness": 0.0
+	"flammability": 0.0
+}

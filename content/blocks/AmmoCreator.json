@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "Ammo Creator",
+	"description": "Combines gunpowder and lead to ammo",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "Ammo", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 35,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.4,
+		"items": {
+			"items": [
+				{ "item": "Gunpowder", "amount": 2 },
+				{ "item": "lead", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "Tin", "amount": 75 },
+		{ "item": "copper", "amount": 75 },
+		{ "item": "Bronze", "amount": 75 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+	"research": "GunpowderMaker"
+}

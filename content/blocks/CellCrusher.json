@@ -1,0 +1,24 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Cell Crusher",
+	"description": "Crush Cells to energy",
+	"itemCapacity": 10,
+	"size": 2,
+	"hasLiquids": false,
+    "powerProduction": 0.8,
+    "itemDuration" : 150,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"item": "EnergyCell"
+    },
+	"requirements": [
+		{ "item": "lead", "amount": 70 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "power",
+	"research": "thermal-generator",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+	"research": "CellFuller"
+}

@@ -1,0 +1,1 @@
+{"description":"Avanced air unit, can shoot slag to lit up volatiles.","drag":0.1,"engineOffset":5.5,"flying":true,"health":1200,"mass":4,"maxVelocity":0.8,"name":"Magmar","range":20,"speed":0.5,"type":"FlyingUnit","weapon":{"alternate":false,"bullet":"slagShot","length":"8","name":"magma shooter","reload":10,"shootSound":"spray","width":13}}

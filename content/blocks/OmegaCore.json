@@ -1,0 +1,13 @@
+{
+	"type": "Vault"
+	"name": "Omega Core"
+	"description": "MOOOOORE ITEMS!"
+	"hasItems": true
+	"itemCapacity": 16000
+	"health": 1500
+	"size": 5
+	"requirements": [
+		{ "item": "thorium", "amount": 1000 }
+	]
+	"category": "effect"
+}

@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "Bronze Wall",
+    "description": "More strange BIG-BIG wall. Enjoy!"
+	"health": 1760
+	"size": 2
+	"requirements": [
+		{ "item": "Bronze", "amount": 24 }
+	],
+	"category": "defense"
+	"research": "BronzeWall"
+}

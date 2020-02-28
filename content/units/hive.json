@@ -1,0 +1,1 @@
+{"description":"Advanced drone can rapidly shoot flak bullets, Strong in numbers","engineOffset":10,"flying":"true","health":500,"hitsize":10,"mass":3,"maxVelocity":0.5,"name":"Hive","range":0.8,"speed":0.4,"type":"wraith","weapon":{"alternate":true,"bullet":"flakLead","length":"1.5","name":"rapid shot","reload":15,"shootSound":"shoot"}}

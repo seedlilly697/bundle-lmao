@@ -1,0 +1,45 @@
+type: PowerTurret
+name: "Scatter ß"
+description: '''Modified from an essential anti-air turret. Shoots EMP projetiles at enemy units.
+[gray]Origin: [orange]EMP Missile from MEEP & SolarPH's Ohno Missiles Mod.'''
+
+health: 800
+size: 2
+
+inaccuracy: 1
+range: 230
+reload: 300
+
+targetGround: false
+
+//credits to SolarPH
+shootType: {
+    type: FlakBulletType
+
+    speed: 6
+    lifetime: 1000
+
+    damage: 500
+
+    hitSound: spark
+    hitEffect: lightningCharge
+    frontColor: ededed
+    backColor: 8ca4f5
+    
+    status: {
+        name: Confusion
+        effect: lightningCharge
+        speedMultiplier: 0
+        color: 8ca4f5
+    }
+    statusDuration: 240
+}
+powerUse: 5
+requirements: [
+    copper/100
+    titanium/85
+    thorium/70
+]
+
+category: turret
+research: scatter

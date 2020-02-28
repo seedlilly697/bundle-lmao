@@ -1,0 +1,39 @@
+type: Separator
+
+size: 4
+solid: true
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 60
+
+craftTime: 6.0
+
+requirements: [
+    lead/300
+    graphite/275
+    titanium/275
+    surge-alloy/100
+    phase-fabric/30
+]
+
+consumes: {
+    power: 6.0
+    liquid: {
+        liquid: slag
+        amount: 0.333
+    }
+}
+
+results: [
+    sand/3
+    copper/4
+    lead/4
+    graphite/3
+    titanium/3
+    thorium/2
+]
+
+category: crafting
+research: separator

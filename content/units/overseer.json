@@ -1,0 +1,1 @@
+{"description":"Advanced mech can spray fire on volatiles to lit them on fire. Works the same as a Titan but has more armor.","engineOffset":5.5,"flying":false,"health":2000,"maxVelocity":0.9,"name":"Overseer","range":20,"speed":0.6,"type":"dagger","weapon":{"alternate":true,"bullet":"pyraFlame","length":"7.5","name":"corium-sprayer","reload":10,"shootSound":"splash"}}

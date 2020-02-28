@@ -1,0 +1,25 @@
+type: DoubleTurret
+name: "Duo ß"
+description: '''Modified from a small, cheap turret. [accent]Requires only a single ammo to operate.
+[gray]Origin: [orange]Cat with Duo from Gary's The Battle Cats Mod.'''
+
+health: 250
+size: 1
+range: 100
+reload: 20
+inaccuracy: 2
+ammoPerShot: 0
+
+ammo: {
+    copper: standardCopper
+    graphite: standardDense
+    pyratite: standardIncendiary
+    silicon: standardHoming
+}
+requirements: [
+    copper/35
+    graphite/45
+]
+
+category: turret
+research: duo

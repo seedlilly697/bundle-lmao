@@ -1,0 +1,11 @@
+{
+	"type": "resource",
+	"name": "Armor-piercing Ammo",
+	"description": "You really have armor?",
+	"hardness": 1,
+	"cost": 6.0,
+	"color": "#FD0000",
+	"radioactivity": 0.0
+	"explosiveness": 0.0
+	"flammability": 0.0
+}

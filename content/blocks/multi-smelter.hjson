@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Multi-smelter
+description: combines sand and oil to make silicon faster.
+liquidCapacity: 10
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+  power: 1.8
+  items: {
+    items: [
+      sand/1
+    ]
+  }
+  liquid: {
+    liquid: oil
+    amount: 0.06667
+  }
+}
+requirements: [
+  lead/100
+  graphite/25
+  titanium/100
+  silicon/50
+]
+category: crafting
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/1

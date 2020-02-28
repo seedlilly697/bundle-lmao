@@ -1,0 +1,1 @@
+{"description":"Large armored aircraft can shoot electric arcs","engineOffset":0.5,"flying":"true","health":1200,"mass":4,"maxVelocity":0.4,"name":"Hypernova","range":5,"speed":0.1,"type":"wraith","weapon":{"alternate":true,"bullet":"lightning","length":"1.5","name":"shocker","reload":5,"shootSound":"spark"}}

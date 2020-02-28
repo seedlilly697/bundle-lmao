@@ -1,0 +1,1 @@
+{"description":"Heavy flying drones can shoot shots in salvo's.","engineOffset":10,"flying":"true","health":750,"hitsize":10,"maxVelocity":0.7,"name":"Arcana","range":1,"speed":0.3,"type":"wraith","weapon":{"alternate":false,"bullet":"standardDenseBig","length":"1.5","name":"salvo-blaster","reload":15,"shootSound":"shootBig","shots":5,"spacing":15}}

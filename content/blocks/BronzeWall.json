@@ -1,0 +1,12 @@
+{
+    "type": "Wall",
+    "name": "Bronze Wall",
+    "description": "More Strange wall. Enjoy!"
+	"health": 440
+	"size": 1
+	"requirements": [
+		{ "item": "Bronze", "amount": 6 }
+	],
+	"category": "defense"
+	"research": "TinWall"
+}

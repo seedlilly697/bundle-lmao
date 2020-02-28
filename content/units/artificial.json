@@ -1,0 +1,1 @@
+{"description":"Heavy armored unit made to wage war.","engineOffset":5.5,"flying":false,"health":10000,"maxVelocity":0.8,"name":"Artificial","range":20,"speed":0.5,"type":"dagger","weapon":{"alternate":true,"bullet":"standardThoriumBig","ejectEffect":"shootBigSmoke","length":"15","name":"hyper-shooter","recoil":4,"reload":5,"shootSound":"shootBig","shotDelay":5,"width":14}}

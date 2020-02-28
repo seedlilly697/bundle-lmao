@@ -1,0 +1,11 @@
+{
+	"type": "material",
+	"name": "Bronze",
+	"description": "Nice metal.",
+	"hardness": 1,
+	"cost": 1.0,
+	"color": "#EB9234",
+	"radioactivity": 0.0
+	"explosiveness": 0.0
+	"flammability": 0.0
+}

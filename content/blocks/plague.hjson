@@ -1,0 +1,85 @@
+type: PowerTurret
+name: "Plague"
+description: '''An effective AoE anti-ground turret. [accent]Can be expensive to operate.
+[gray]Credits: [orange]Solar PH'''
+
+health: 1200
+size: 2
+
+shootCone: 360
+rotatespeed: 0
+recoil: 0
+
+range: 20000
+inaccuracy: 100
+reload: 0.25
+shots: 10
+
+shootType: {
+    type: ArtilleryBulletType
+    damage: 0
+    splashDamage: 0
+    splashDamageRadius: 0
+    knockback: 0
+    collides: false
+    collidesTiles: false
+    collidesAir: false
+    collidesTeam: false
+    lifetime: 0
+    despawnEffect: none
+    hitEffect: none
+    trailEffect: none
+    shootEffect: none
+    smokeEffect: none
+    hitShake: 0
+    hitSound: none
+    bulletHeight: 0
+    bulletWidth: 0
+    fragBullets: 3
+    fragVelocityMin: 0
+    fragVelocityMax: 2
+    fragBullet: {
+        type: ArtilleryBulletType
+        lifetime: 25
+        speed: 2
+        despawnEffect: none
+        hitEffect: none
+        trailEffect: none
+        hitSound: none
+        hitShake: 0
+        bulletHeight: 0
+        bulletWidth: 0
+        collides: false
+        collidesTiles: false
+        collidesAir: false
+        collidesTeam: false
+        fragBullets: 1
+        fragBullet: {
+            type: LiquidBulletType
+            liquid: water
+            lifetime: 0
+            fragBullets: 1
+            hitEffect: none
+            despawnEffect: none
+            fragBullet: waterShot
+            hitSound: none
+            status: {
+	            name: "[maroon]Infect"
+			    damage: 2.5
+			    attackMultiplier: 0.5
+			    armorMultiplier: 0.5
+			    color: 943465
+            }
+            statusDuration: 600
+        }
+    }
+}
+powerUse: 10
+requirements: [
+    copper/150
+    phase-fabric/150
+    surge-alloy/150
+]
+
+category: turret
+research: wave

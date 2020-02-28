@@ -1,0 +1,40 @@
+{
+	"type": "DoubleTurret",
+	"name": "Bloodness",
+	"description": "Me need more blood...",
+	"health": 400,
+	"size": 2,
+	"reload": 30,
+	"range": 250,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 1,
+	"rotatespeed": 8,
+	"ammo": {
+		"Ammo": {
+			"speed": 10,
+			"damage": 75,
+			"bulletWidth": 10,
+			"bulletHeight": 10,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 1
+		},
+		"Armor-PiercingAmmo": {
+			"speed": 15
+			"damage": 200
+			"bulletWidth": 15
+			"bulletHeight": 15
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"ammoMultiplier": 1
+		}
+	},
+	"requirements": [
+		{ "item": "Bronze", "amount": 300 },
+		{ "item": "copper", "amount": 150 },
+		{ "item": "Tin", "amount": 150 },
+		{ "item": "thorium", "amount": 100}
+	],
+	"category": "turret",
+	"research": "salvo"
+}

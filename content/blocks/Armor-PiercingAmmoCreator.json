@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Armor-Piercing Ammo Creator",
+	"description": "Combines ammo, copper and bronze to armor-piercing ammo",
+	"liquidCapacity": 0,
+	"outputItem": {"item": "Armor-PiercingAmmo", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 40,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.8,
+		"items": {
+			"items": [
+				{ "item": "Ammo", "amount": 2 },
+				{ "item": "copper", "amount": 2 },
+				{ "item": "Bronze", "amount": 1 },
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "Tin", "amount": 100 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "Bronze", "amount": 100 }
+	],
+	"category": "crafting",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+	"research": "AmmoCreator"
+}
