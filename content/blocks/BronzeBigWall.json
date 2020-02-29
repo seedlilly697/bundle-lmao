@@ -8,5 +8,5 @@
 		{ "item": "Bronze", "amount": 24 }
 	],
 	"category": "defense"
-	"research": "BronzeWall"
+	//"research": "BronzeWall"
 }

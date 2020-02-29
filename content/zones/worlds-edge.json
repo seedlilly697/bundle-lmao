@@ -1,1 +1,25 @@
-{"conditionWave":20,"description":"Highly dangerous area, litteraly the edge of the world. Be careful, don't wait too long.","launchPeriod":20,"loadOut":"basicFoundation","name":"World's edge","requirements":[{"type":"zoneWave","wave":18,"zone":"desolateRift"},{"block":"uranium-forge","type":"unlock"}],"resources":["copper","lead","coal","titanium","crystal","sand","scrap","thorium"],"startingItems":[{"amount":1000,"item":"copper"},{"amount":100,"item":"lead"}]}
+"conditionWave":20,
+"description":"Highly dangerous area, litteraly the edge of the world. Be careful, don't wait too long.",
+"launchPeriod":20,
+"loadOut":"basicFoundation",
+"name":"World's edge",
+"requirements":[{
+  "type":"zoneWave",
+  "wave":18,"zone":"desolateRift"
+}],
+"resources":[
+  "copper",
+  "lead",
+  "coal",
+  "titanium",
+  "crystal",
+  "sand",
+  "scrap",
+  "thorium"
+],
+"startingItems":[
+  {
+    "amount":1000,"item":"copper"
+    "amount":100,"item":"lead"}
+
+]
